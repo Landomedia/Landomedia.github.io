@@ -185,17 +185,10 @@
 			
                 <div class="12u$">
                     <ul class="actions">
-                        <td><input type="button" name ="b1" value="Submit" onClick="aa();"/></td>
+                        <td><input type="button" name ="b1" value="Submit" onClick="store.php"/></td>
                     </ul>
                 </div>
         <script type="text/javascript">
-        function aa()
-        {
-          var xmlhttp;
-          xmlhttp=new XMLHttpRequest();
-          xmlhttp.open("GET","insert.php?nm=" + document.getElementById("name").value+"&email="+document.getElementById("email").value+"&instagram="+document.getElementById("Instagram").value+"&loc="+document.getElementById("Location").value+"&count="+document.getElementById("count").value,false);
-          xtmlhttp.send(null);
-        }
 		</script>
       </body>
     </html>

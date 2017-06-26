@@ -185,7 +185,7 @@
 			
                 <div class="12u$">
                     <ul class="actions">
-                        <td><input type="button" name ="b1" value="Submit" onClick="store.php"/></td>
+                        <td><input type="submit" name ="b1" value="Submit" onClick="store.php"/></td>
                     </ul>
                 </div>
         <script type="text/javascript">

@@ -215,7 +215,7 @@
 		<form class="contact-form" id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbzIdqAVtexUue8CHQ9Mq3zgG2Vq6hjN2lFJROUWyEkwarZ7OkTR/exec">
 		<fieldset class="form-group" align="center">
 			<p><br><br>How would you like to be paid?</p>
-				<select id="payment" name="payment">
+				<select id="payment" name="payment" required>
 				  <option selected></option>
 		          <option>Paypal</option>
 		          <option>Amazon Gift Card</option>
@@ -227,27 +227,27 @@
 			</fieldset>
 			<fieldset class="form-group">
 				<label for="name" class="sr-only">Instagram</label>
-				<input type="name" name="instagram" class="form-control" id="instagram" placeholder="Instagram username">
+				<input type="name" name="instagram" class="form-control" id="instagram" placeholder="Instagram username" required>
 			</fieldset>
 			<fieldset class="form-group">
 				<label for="message" class="sr-only">Followers</label>
-				<input type="number" name="followers" class="form-control" id="followers" placeholder="How many followers do you have at the moment? Please give an exact number."></input>
+				<input type="number" name="followers" class="form-control" id="followers" required placeholder="How many followers do you have at the moment? Please give an exact number."></input>
 			</fieldset>
 			<fieldset class="form-group">
 				<label for="email" class="sr-only">Email</label>
-				<input type="email" name="email" class="form-control" id="email" placeholder="Email">
+				<input type="email" name="email" class="form-control" id="email" placeholder="Email" required>
 			</fieldset>
 			<fieldset class="form-group">
 				<label for="message" class="sr-only">State</label>
-				<input type="name" class="form-control" name ="state" id="state" placeholder="State"></textarea>
+				<input type="name" class="form-control" name ="state" id="state" placeholder="State" required></textarea>
 			</fieldset>
 			<fieldset class="form-group">
 				<label for="message" class="sr-only">School or City</label>
-				<input rype="name" class="form-control" name="school" id="school" placeholder="School or City"></textarea>
+				<input rype="name" class="form-control" name="school" id="school" placeholder="School or City" required></textarea>
 			</fieldset>
 			<fieldset class="form-group">
 				<label for="message" class="sr-only">Referral</label>
-				<input type="name" name="referral" class="form-control" id="referral" placeholder="Were you referred by someone? If so, what's their email or Instagram username?"></input>
+				<input type="name" name="referral" class="form-control" id="referral" required placeholder="Were you referred by someone? If so, what's their email or Instagram username?"></input>
 			</fieldset>
 			<fieldset class="form-group" align="center">
 				<input type="submit" id="btn-submit" class="btn btn-send-message btn-md" value="Send Message">

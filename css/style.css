@@ -631,30 +631,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #888f94;
 }
 
-.fh5co-services .box-services {
-  position: relative;
-  margin-bottom: 70px;
-}
-.fh5co-services .box-services i {
-  position: absolute;
-  left: 0;
-  top: 0;
-  font-size: 54px;
-  color: #1fb5f6;
-}
-.fh5co-services .fh5co-post {
-  padding-left: 75px;
-}
-.fh5co-services .fh5co-post h3 {
-  font-size: 20px;
-  margin-bottom: 15px;
-}
-.fh5co-services .call-to-action .btn-learn {
-  padding: 12px 30px;
-  background: #50c5f8;
-  color: #fff;
-}
-
 #fh5co-team {
   background: #f1faff;
 }

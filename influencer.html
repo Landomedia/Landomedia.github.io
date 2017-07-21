@@ -89,8 +89,9 @@
 					<ul class="nav navbar-nav navbar-right">
 						<li class="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>
 						<li><a href="#" data-nav-section="explore"><span>Explore</span></a></li>
-						<li><a href="#" data-nav-section="team"><span>Team</span></a></li>
 						<li><a href="#" data-nav-section="faq"><span>FAQ</span></a></li>
+						<li><a href="#" data-nav-section="team"><span>Team</span></a></li>
+						<li class="call-to-action"><a href="#" data-nav-section="services"><span>Sign Up</span></a></li>
 					</ul>
 				</div>
 			</nav>
@@ -107,7 +108,6 @@
 							<h1 class="to-animate">PaidToPost</h1>
 							<h2 class="to-animate">Post pictures for us on Instagram and make money</h2>
 							<div class="call-to-action">
-							<a target="_blank" href="https://goo.gl/forms/MZXVcIvcshgI1q2m1" class="download to-animate">Sign up</a>
 						</div>
 					</div>
 				</div>
@@ -205,21 +205,111 @@
 			</div>
 		</div>
 	</section>
-    <div class="getting-started getting-started-1">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 to-animate">
-                <h3>Make Money for Posting on your Social Media!</h3>
-                <p>Sign up for free, and we'll email you with opportunities!</p>
-            </div>
-            <div class="col-md-6 to-animate-2">
-                <div class="call-to-action text-right">
-                    <a target="_blank" href="https://goo.gl/forms/MZXVcIvcshgI1q2m1" class="sign-up">Sign up</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+	<section id="fh5co-services" data-section="services">
+		<div class="col-md-12 to-animate">
+		<h2 align="center">Sign Up</h2>
+		<div style="display:none;" id="thankyou_message" align="center">
+			<h2><em>Thanks</em> for contacting us!
+			We will get back to you soon!</h2>
+		</div>
+		<form class="contact-form" id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbzIdqAVtexUue8CHQ9Mq3zgG2Vq6hjN2lFJROUWyEkwarZ7OkTR/exec">
+		<fieldset class="form-group" align="center">
+				<select id="payment" name="payment">
+				  <option selected>How do you want to be paid?</option>
+		          <option>Paypal</option>
+		          <option>Amazon Gift Card</option>
+		        </select>
+		</fieldset>
+			<fieldset class="form-group">
+				<label for="email" class="sr-only">Paypal Email (Skip if not applicable)</label>
+				<input type="email" name="pemail" class="form-control" id="pemail" placeholder="Paypal Email">
+			</fieldset>
+			<fieldset class="form-group">
+				<label for="name" class="sr-only">Instagram</label>
+				<input type="name" name="instagram" class="form-control" id="instagram" placeholder="Instagram username">
+			</fieldset>
+			<fieldset class="form-group">
+				<label for="message" class="sr-only">Followers</label>
+				<input type="number" name="followers" class="form-control" id="followers" placeholder="How many followers do you have at the moment? Please give an exact number."></input>
+			</fieldset>
+			<fieldset class="form-group">
+				<label for="email" class="sr-only">Email</label>
+				<input type="email" name="email" class="form-control" id="email" placeholder="Email">
+			</fieldset>
+			<fieldset class="form-group">
+				<label for="message" class="sr-only">State</label>
+				<input type="name" class="form-control" name ="state" id="state" placeholder="State"></textarea>
+			</fieldset>
+			<fieldset class="form-group">
+				<label for="message" class="sr-only">School or City</label>
+				<input rype="name" class="form-control" name="school" id="school" placeholder="School or City"></textarea>
+			</fieldset>
+			<fieldset class="form-group">
+				<label for="message" class="sr-only">Referral</label>
+				<input type="name" name="referral" class="form-control" id="referral" placeholder="Were you referred by someone? If so, what's their email or Instagram username?"></input>
+			</fieldset>
+			<fieldset class="form-group" align="center">
+				<input type="submit" id="btn-submit" class="btn btn-send-message btn-md" value="Send Message">
+			</fieldset>
+		</form>
+		</div>
+	</section>
+
+
+	<section id="fh5co-faq" data-section="faq">
+		<div class="fh5co-faq">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 section-heading text-center">
+						<h2 class="to-animate"><br><br>FAQ</h2>
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2 subtext">
+								<h3 class="to-animate">Everything you need to know before you get started</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="box-faq to-animate-2">
+							<h3>How much will I get paid per post?</h3>
+							<p>For every 100 followers you have you will get paid 1 dollar, so if you have 1,000 followers, you will get paid 10 dollars per post. </p>
+						</div>
+						<div class="box-faq to-animate-2">
+							<h3>How will I get contacted when you have an advertisement they would like me to post?</h3>
+							<p>You will be contacted through the email address you provided when signing up.</p>
+						</div>
+                        <div class="box-faq to-animate-2">
+                            <h3>When will I get paid for posting an advertisement?</h3>
+                            <p>After you have posted the advertisement for the allotted time given, email us a screenshot. Once we have received the picture, we will pay you through the method you chose when signing up.  </p>
+                        </div>
+                        <div class="box-faq to-animate-2">
+                            <h3>How long will I have to post an advertisement on my account when using Kidnetwork?</h3>
+                            <p>Each advertisement you post will be required to stay up for two hours. </p>
+                        </div>
+                    </div>
+
+					<div class="col-md-6">
+						<div class="box-faq to-animate-2">
+							<h3>How will you choose which ads I post through Kidnetwork? </h3>
+							<p>Each advertisement will be chosen based on your location and the number of followers you have. </p>
+						</div>
+						<div class="box-faq to-animate-2">
+							<h3>How can I find opportunities through Kidnetwork?</h3>
+							<p>Once you have signed up with Kidnetwork, we will email you with opportunities as soon as they come. Check your email frequently so you know when there is an opportunity to post an advertisement. </p>
+						</div>
+                        <div class="box-faq to-animate-2">
+                            <h3>Can I choose what advertisement I post on my social media account?</h3>
+                            <p>We will send you each advertisement that you will post on your social media account. If you feel uncomfortable posting an advertisement we have given you, please let us know. You are not required to post any advertisement given to you. </p>
+						<div class="box-faq to-animate-2">
+							<h3>Any other questions?</h3>
+							<p>Email us, or call us! Email: landomediaservice@gmail.com<br>Phone number: (617)888-5114</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 	<section id="fh5co-team" data-section="team">
 		<div class="fh5co-team">
 			<div class="container">
@@ -318,61 +408,6 @@
 		</div>
 	</section>
 
-	<section id="fh5co-faq" data-section="faq">
-		<div class="fh5co-faq">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 section-heading text-center">
-						<h2 class="to-animate">FAQ</h2>
-						<div class="row">
-							<div class="col-md-8 col-md-offset-2 subtext">
-								<h3 class="to-animate">Everything you need to know before you get started</h3>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6">
-						<div class="box-faq to-animate-2">
-							<h3>How much will I get paid per post?</h3>
-							<p>For every 100 followers you have you will get paid 1 dollar, so if you have 1,000 followers, you will get paid 10 dollars per post. </p>
-						</div>
-						<div class="box-faq to-animate-2">
-							<h3>How will I get contacted when you have an advertisement they would like me to post?</h3>
-							<p>You will be contacted through the email address you provided when signing up.</p>
-						</div>
-                        <div class="box-faq to-animate-2">
-                            <h3>When will I get paid for posting an advertisement?</h3>
-                            <p>After you have posted the advertisement for the allotted time given, email us a screenshot. Once we have received the picture, we will pay you through the method you chose when signing up.  </p>
-                        </div>
-                        <div class="box-faq to-animate-2">
-                            <h3>How long will I have to post an advertisement on my account when using Kidnetwork?</h3>
-                            <p>Each advertisement you post will be required to stay up for two hours. </p>
-                        </div>
-                    </div>
-
-					<div class="col-md-6">
-						<div class="box-faq to-animate-2">
-							<h3>How will you choose which ads I post through Kidnetwork? </h3>
-							<p>Each advertisement will be chosen based on your location and the number of followers you have. </p>
-						</div>
-						<div class="box-faq to-animate-2">
-							<h3>How can I find opportunities through Kidnetwork?</h3>
-							<p>Once you have signed up with Kidnetwork, we will email you with opportunities as soon as they come. Check your email frequently so you know when there is an opportunity to post an advertisement. </p>
-						</div>
-                        <div class="box-faq to-animate-2">
-                            <h3>Can I choose what advertisement I post on my social media account?</h3>
-                            <p>We will send you each advertisement that you will post on your social media account. If you feel uncomfortable posting an advertisement we have given you, please let us know. You are not required to post any advertisement given to you. </p>
-						<div class="box-faq to-animate-2">
-							<h3>Any other questions?</h3>
-							<p>Email us, or call us! Email: landomediaservice@gmail.com<br>Phone number: (617)888-5114</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
 	<hr>
 
 	<section id="fh5co-trusted" data-section="trusted">
@@ -413,6 +448,10 @@
 			</div>
 		</div>
 	</section>
+	<div style="display:none;" id="thankyou_message">
+  		<h2><em>Thanks</em> for contacting us!
+		We will get back to you soon!</h2>
+	</div>
 
 
 	<!-- jQuery -->
@@ -429,6 +468,6 @@
 	<script src="js/owl.carousel.min.js"></script>
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
-
+	<script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 	</body>
 </html>
